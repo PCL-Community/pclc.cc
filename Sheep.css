@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  .community {
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    margin: 50px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    margin: 20px;
+  }
+  .name {
+    color: #333;
+    font-size: 2em;
+    margin: 10px 0;
+  }
+  .description {
+    color: #666;
+    margin: 10px 0;
+  }
+  .projects {
+    text-align: left;
+    margin-top: 30px;
+  }
+  .projects h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .projects ul {
+    list-style: none;
+    padding: 0;
+  }
+  .projects li {
+    background-color: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .button {
+    color: #333;
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  .button1 {
+    border-color: #008CBA; 
+  }
+  .button2 {
+    border-color: #44c767; 
+  }
+  .button3 {
+    border-color: #e4e622; 
+  }
+  .button4 {
+    border-color: #114514; 
+  }
+  .author {
+    display: block;
+    margin-top: 10px;
+  }
+  /* 可折叠区域的样式 */
+  .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  /* 图片按钮的样式 */
+  .img-btn {
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+  }
