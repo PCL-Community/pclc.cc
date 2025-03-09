@@ -9,7 +9,7 @@ Plain Craft Launcher 2 社区版<br />
 由社区强力驱动的抢先预览版
 
 作者：PCL-Community<br />
-地址：https://github.com/PCL-Community/PCL2-CE
+地址：https://github.com/PCL-Community/PCL2-CE<br />
 官网：https://pcl2ce.pclcommunity.us.kg
 
 ## PCL2-1930
