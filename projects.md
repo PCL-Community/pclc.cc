@@ -1,5 +1,5 @@
 ---
-outline: deep
+layout: doc
 ---
 # 项目一览
 

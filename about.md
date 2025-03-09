@@ -1,10 +1,12 @@
 ---
-outline: deep
+layout: doc
 ---
 
 # 关于 PCL Community
 
 非官方的 PCL 社区玩家组织，不代表开发者龙腾猫跃和 PCL 官方。
+
+[GitHub](https://github.com/PCL-Community) | [B 站](https://space.bilibili.com/3546847192811755) | [加入组织](https://github.com/orgs/PCL-Community/discussions/10)
 
 ## PCL 的贡献者们
 
