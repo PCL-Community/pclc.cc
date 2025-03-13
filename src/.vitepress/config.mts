@@ -37,7 +37,7 @@ export default defineConfig({
       { text: '主页', link: '/' },
       { text: '项目', link: '/projects' },
       { text: '更新日志', items: [
-        { text: "PCL-CE 更新日志", link: "/changelog/pcl-ce.md"}
+        { text: "PCL-CE 更新日志", link: "projects/pcl-ce/changelog.md"}
       ] },
       { text: '关于', link: '/about' }
     ],
