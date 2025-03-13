@@ -4,7 +4,7 @@ layout: doc
 
 # 关于 PCL Community
 
-非官方的 PCL 社区玩家组织，不代表开发者龙腾猫跃和 PCL 官方。
+<mark>非官方</mark>的 PCL 社区玩家组织，<mark>不代表</mark>开发者龙腾猫跃和 PCL 官方。
 
 [GitHub](https://github.com/PCL-Community) | [B 站](https://space.bilibili.com/3546847192811755) | [加入组织](https://github.com/orgs/PCL-Community/discussions/10)
 

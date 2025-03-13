@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import timeline from "vitepress-markdown-timeline";
 
 // https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
@@ -6,6 +7,28 @@ export default defineConfig({
   description: "PCL 非官方社区",
   head: [['link', { rel: 'icon', href: '/img/logo.png' }]],
   lang: "zh-CN",
+  markdown: {
+    config: (md) => {
+      md.use(timeline);
+    },
+  },
+  vite: { 
+    optimizeDeps: {
+      exclude: [ 
+        '@nolebase/vitepress-plugin-enhanced-readabilities/client', 
+        'vitepress', 
+        '@nolebase/ui', 
+      ], 
+    },
+    ssr: { 
+      noExternal: [ 
+        // 如果还有别的依赖需要添加的话，并排填写和配置到这里即可 //
+        '@nolebase/vitepress-plugin-highlight-targeted-heading',
+        '@nolebase/vitepress-plugin-enhanced-readabilities', 
+        '@nolebase/ui', 
+      ], 
+    }, 
+  },
   themeConfig: {
 
     logo: '/img/logo.png',
