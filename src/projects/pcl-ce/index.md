@@ -15,7 +15,7 @@ layout: doc
     由社区强力驱动的抢先预览版
     <br />
     <br />
-    <a href="/projects/pcl-ce/changelog.md">更新日志</a>
+    <a href="/projects/pcl-ce/changelog.html">更新日志</a>
     &middot;
     <a href="https://github.com/PCL-Community/PCL2-CE/issues/">反馈问题</a>
     &middot;
