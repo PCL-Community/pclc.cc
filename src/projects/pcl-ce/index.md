@@ -15,7 +15,7 @@ layout: doc
     由社区强力驱动的抢先预览版
     <br />
     <br />
-    <a href="https://github.com/Hex-Dragon/PCL2">查看上游</a>
+    <a href="/projects/pcl-ce/changelog.md">更新日志</a>
     &middot;
     <a href="https://github.com/PCL-Community/PCL2-CE/issues/">反馈问题</a>
     &middot;
@@ -40,12 +40,16 @@ layout: doc
 
 ## 参与开发
 
+### Fork 仓库
+
+单机仓库右上角的 Fork 按钮，Fork 一份仓库到自己的账号下
+
 ### 克隆项目到本地
 
-除非您很确定本版本的 PCL 存在问题，否则我们推荐您使用上游分支的版本进行开发。
+此处建议使用 SSH 连接（需要配置好相关密钥）进行克隆
 
 ```bash
-git clone git@github.com:PCL-Community/PCL2-CE.git
+git clone git@github.com:<你的 GitHub ID>/PCL2-CE.git
 ```
 
 ### 使用 Visual Studio 开发

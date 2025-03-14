@@ -8,9 +8,9 @@ layout: doc
 Plain Craft Launcher 2 社区版<br />
 由社区强力驱动的抢先预览版
 
-作者：PCL-Community<br />
+作者：PCL-Community 的各位<br />
 地址：https://github.com/PCL-Community/PCL2-CE <br/>
-[查看介绍](/projects/pcl-ce/index.md)
+介绍：[宣传地址](/projects/pcl-ce/index.md)
 
 ## PCL2-1930
 
