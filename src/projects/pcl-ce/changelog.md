@@ -6,9 +6,39 @@ layout: doc
 
 ---
 
-::: timeline 2.10.12 (362)
+::: timeline 2.10.5 (365)
 
-**此版本基于主线版本 2.8.13**
+**此版本基于主线 2.9.2 制作**
+
+### 修复
+
+- 在 Java 列表上滚动鼠标会导致后方页面也滚动的问题 (@tangge233 / #369 )
+- Cleanroom 选择后错误提示可添加 OptiFine (@tangge233 / #362 )
+- 版本修改功能无法使用 (@tangge233 / #356 )
+- Mod 更新会更新到不正确的版本 (@tangge233 / #319 )
+- 深色模式下部分控件显示不正确 (@tangge233 / #375 )
+- 大量实时日志下界面会假死 (@tangge233 / #363 )
+- 资源排序按文件名称排序不应当区分大小写 (@MoYuan-CN / #381 )
+
+### 新功能
+
+- 支持切换程序字体 (@tangge233 )
+- 支持导出资源详细信息 (@tangge233 )
+
+### 小改动
+
+- 修改了修改页面的风格以便与新 UI 统一 (@tangge233 )
+- 同步资源下载预设版本选择 (@MoYuan-CN )
+
+---
+
+完整记录: https://github.com/PCL-Community/PCL2-CE/compare/2.10.4...2.10.5
+
+:::
+
+::: timeline 2.10.4 (363)
+
+**此版本基于主线版本 2.9.1**
 
 ### 更新亮点
 
@@ -36,22 +66,16 @@ layout: doc
 
 - 意外地将 Quilt Mod 更新为 NeoForge 版本 (@Lithum-12 / #296 ; PR @3gf8jv4dv / #298 )
 - 在关闭文件校验选项开启时也始终校验 Libraries (PR @Pigeon0v0 / #310 )
+- 在更新通道切换后误认为不是最新版本 (PR @tangge233 / #343 )
+- 在浅色模式下实时日志的部分颜色显示不正确 (PR @tangge233 / #335 )
+- 由于合并上游导致的默认选择高性能 Java 选项丢失 (PR @tangge233 / d580e422f83c1e553e3b9e2c637d9d1c3bf246ec)
 
 ### 技术性更改
 
-- 统一了 Mod、资源包、光影包的管理实现 (PR @tangge233 / #299 )
+- 修复更新服务器的链接错误 (PR @Pigeon0v0 / 5d7ac119bd95be7deeaaea1a044c4be411768edb )
 
 ---
 
 完整记录: https://github.com/PCL-Community/PCL2-CE/compare/2.10.3...2.10.4
-
----
-
-2.10.4（内部版本 362）
-
-| 构建文件版本 | SHA-256 |
-|----|----|
-| x86_64 FR | 6528DCB24419ED9E4F8F313E3DEEBBE2DDD53C00B76FC414310B0DC84CDF2A43 |
-| ARM64 FR | 1BA578E8779070320F14D06CACFF8C0B331BE550168B6E725E948F019DFD5026 |
 
 :::

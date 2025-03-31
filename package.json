@@ -3,9 +3,9 @@
     "vitepress": "^1.6.3"
   },
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:dev": "vitepress dev src",
+    "docs:build": "vitepress build src",
+    "docs:preview": "vitepress preview src"
   },
   "dependencies": {
     "@nolebase/vitepress-plugin-enhanced-mark": "^2.15.1",
