@@ -5,7 +5,9 @@ import timeline from "vitepress-markdown-timeline";
 export default defineConfig({
   title: "PCL Community",
   description: "PCL 非官方社区",
-  head: [['link', { rel: 'icon', href: '/img/logo.png' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/img/logo.png' }],
+  ],
   lang: "zh-CN",
   markdown: {
     config: (md) => {
@@ -27,19 +29,21 @@ export default defineConfig({
         '@nolebase/vitepress-plugin-enhanced-readabilities', 
         '@nolebase/ui', 
       ], 
-    }, 
+    }
   },
   themeConfig: {
 
     logo: '/img/logo.png',
 
     nav: [
-      { text: '主页', link: '/' },
-      { text: '项目', link: '/projects' },
+      { text: '主页', link: '/index.md' },
+      { text: '项目', link: '/projects/index.md' },
       { text: '更新日志', items: [
+        { text: "PCL2 更新日志", link: "https://www.bilibili.com/read/readlist/rl449275"},
         { text: "PCL-CE 更新日志", link: "projects/pcl-ce/changelog.md"}
       ] },
-      { text: '关于', link: '/about' }
+      { text: '杂物间', link: '/misc/index.md'},
+      { text: '关于', link: '/about.md' }
     ],
 
     sidebar: [

@@ -2,7 +2,7 @@
 layout: doc
 ---
 
-# 关于 PCL Community
+# <img src="/img/logo.png" alt="Logo" class="size-32"> PCL Community
 
 <mark>非官方</mark>的 PCL 社区玩家组织，<mark>不代表</mark>开发者龙腾猫跃和 PCL 官方。
 
