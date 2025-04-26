@@ -41,7 +41,7 @@ Plain Craft Launcher 2 多语言版<br />
 作者：MoYuan-CN<br />
 地址：https://github.com/PCL-Community/PCL2.Nova.App
 
-## PCL Newer Project <Badge type="tip" text="开发中">
+## PCL Newer Project <Badge type="tip" text="开发中" />
 
 一个使用 Flutter 编写的 PCL2 下游社区版！
 
