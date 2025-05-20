@@ -33,6 +33,10 @@ layout: doc
 
 ![image](/img/pcl-ce/DownloadFav.png)
 
+![image](/img/pcl-ce/DownloadCompList.png)
+
+![image](/img/pcl-ce/DownloadCompDetail.png)
+
 ### 更加方便的版本管理
 
 ![image](/img/pcl-ce/InstanceResource.png)
