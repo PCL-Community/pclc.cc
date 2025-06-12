@@ -32,7 +32,7 @@ Plain Craft Launcher 2 多语言版<br />
 一个用 Avalonia 重写的 PCL2
 
 作者：Hill23333<br />
-地址：https://github.com/PCL-Community/PCL2.Neo
+地址：https://github.com/PCL-Community/PCL.Neo
 
 ## PCL2 Nova <Badge type="tip" text="开发中" />
 
@@ -47,6 +47,13 @@ Plain Craft Launcher 2 多语言版<br />
 
 作者：xphost008<br />
 地址：https://github.com/PCL-Community/PCL2-Newer-Project
+
+## PCL Mac <Badge type="tip" text="开发中" />
+
+一个使用 SwiftUI 框架重写的 PCL，专为 macOS 平台打造。
+
+作者：YiZhiMCQiu<br />
+地址：https://github.com/PCL-Community/PCL-Mac
 
 ## PCL Issue Helper
 
