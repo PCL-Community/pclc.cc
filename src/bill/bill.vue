@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <div style="flex-direction: row; display: flex">
+    <div style="flex-direction: row; display: flex;">
         <div class="available-bill">
             <p style="text-align: center; padding-top: 6px; margin: 0px; width: auto; height: auto">
                 可用：￥{{ Math.round(BillManager.getAvailable() * 100) / 100 }}
@@ -21,10 +21,10 @@
             </p>
         </div>
     </div>
-    <div class="border border-[var(--vp-c-indigo-1)] rounded-lg p-2 m-2 flex flex-col gap-2">
-        <div class="collapse collapse-arrow border rounded-sm" v-for="bill in bills">
+    <div class="border border-[var(--vp-c-indigo-1)] rounded-[20px] p-2 m-2 flex flex-col gap-2 bg-[var(--vp-c-divider)]">
+        <div class="collapse collapse-arrow rounded-[12.5px]" v-for="bill in bills">
             <input type="checkbox" />
-            <div class="collapse-title font-semibold flex gap-2">
+            <div class="collapse-title font-semibold flex gap-2 bg-[var(--vp-nav-screen-bg-color)]">
                 <svg
                     v-if="bill.type === 'outlay'"
                     width="28"
@@ -77,9 +77,9 @@
                     <h2 style="border-top: 0px; margin: 0px; padding-top: 8px">￥{{ bill["exchanged-amount"] }}</h2>
                 </div>
             </div>
-            <div class="collapse-content text-sm">
+            <div class="collapse-content text-sm bg-[var(--vp-nav-screen-bg-color)]">
                 <div class="flex gap-2 items-center">
-                    <div class="badge badge-md badge-outline" style="--badge-color: var(--vp-c-brand-3)">
+                    <div class="badge badge-md badge-inline text-[var(--vp-nav-screen-bg-color)]" style="--badge-color: var(--vp-c-brand-3)">
                         {{
                             bill["type"] === "income" ? "收入来源" : bill["type"] === "outlay" ? "支出目标" : "交易对象"
                         }}
@@ -87,7 +87,7 @@
                     {{ bill["target"] }}
                 </div>
                 <div class="flex gap-2 items-center mt-1">
-                    <div class="badge badge-md badge-outline" style="--badge-color: var(--vp-c-warning-1)">
+                    <div class="badge badge-md badge-inline text-[var(--vp-nav-screen-bg-color)]" style="--badge-color: var(--vp-c-warning-1)">
                         交易内容
                     </div>
                     {{ bill["description"] }}
