@@ -9,7 +9,7 @@ export interface Bill {
     target: string,
     operator: string,
     description: string,
-    type: "income" | "outcome"
+    type: "income" | "outlay"
 }
 
 export class BillManager {
@@ -32,10 +32,10 @@ export class BillManager {
         }
         return sum;
     }
-    public static getOutcomes(): number {
+    public static getoutlays(): number {
         let sum: number = 0;
         for(let bill of BillManager.bills) {
-            if(bill.type === "outcome")
+            if(bill.type === "outlay")
                 sum += bill["exchanged-amount"];
         }
         return sum;

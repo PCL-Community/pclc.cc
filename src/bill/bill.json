@@ -7,7 +7,7 @@
         "target": "NameCheap",
         "operator": "EncVar",
         "description": "购买域名 pclc.cc",
-        "type": "outcome"
+        "type": "outlay"
     },
     {
         "date": "2025-06-15",
