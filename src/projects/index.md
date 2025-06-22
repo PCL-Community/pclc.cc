@@ -27,7 +27,7 @@ Plain Craft Launcher 2 多语言版<br />
 作者：tangge233<br />
 地址：https://github.com/PCL-Community/PCL2-Language
 
-## PCL2 Neo <Badge type="tip" text="开发中" />
+## PCL Neo <Badge type="tip" text="开发中" />
 
 一个用 Avalonia 重写的 PCL2
 
