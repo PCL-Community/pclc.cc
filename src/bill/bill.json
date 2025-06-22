@@ -1,0 +1,20 @@
+[
+    {
+        "date": "2025-06-15",
+        "original-amount": 17.94,
+        "original-unit": "$",
+        "exchanged-amount": 128.76,
+        "target": "NameCheap",
+        "operator": "EncVar",
+        "description": "购买域名 pclc.cc",
+        "type": "outcome"
+    },
+    {
+        "date": "2025-06-15",
+        "exchanged-amount": 89.03,
+        "target": "Mirror 酱",
+        "operator": "Pigeon0v0",
+        "description": "开发者分成提现",
+        "type": "income"
+    }
+]

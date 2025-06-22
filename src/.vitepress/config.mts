@@ -53,7 +53,8 @@ export default defineConfig({
         { text: "PCL-CE 更新日志", link: "projects/pcl-ce/changelog.md"}
       ] },
       { text: '杂物间', link: '/misc/index.md'},
-      { text: '关于', link: '/about.md' }
+      { text: '关于', link: '/about.md' },
+      { text: '账单', link: '/bill.md' }
     ],
 
     sidebar: [
