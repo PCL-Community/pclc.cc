@@ -13,7 +13,7 @@
 此处建议使用 SSH 连接（需要配置好相关密钥）进行克隆
 
 ```bash
-git clone git@github.com:<你的 GitHub ID>/PCL2-CE.git
+git clone git@github.com:<你的 GitHub ID>/PCL-Community.github.io.git
 ```
 
 > [!NOTE]
@@ -21,5 +21,7 @@ git clone git@github.com:<你的 GitHub ID>/PCL2-CE.git
 
 > [!NOTE]
 > 搭配 VitePress 文档开发会更好：
+> 
 > https://vitepress.dev/zh/guide/what-is-vitepress
+> 
 > https://vitepress.yiov.top/getting-started.html
