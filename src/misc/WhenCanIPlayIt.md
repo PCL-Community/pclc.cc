@@ -23,7 +23,7 @@ layout: doc
 ## 方块竞技场
 
 [视频介绍](https://www.bilibili.com/video/BV1uq4y1C7LW) | [文本介绍](https://www.bilibili.com/opus/616703260133109112)
- 
+
 :::timeline 2022-01-19
 
 发布了展示视频
