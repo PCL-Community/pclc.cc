@@ -17,9 +17,9 @@ hero:
       link: /about
 
 features:
-  - title: Plain Craft Launcher 2 CE
+  - title: Plain Craft Launcher Community Edition
     link: /projects/pcl-ce/
-    details: PCL2 社区版 由社区强力驱动的抢先预览版
+    details: PCL 社区版（CE）是由社区强力驱动的抢先预览版
   - title: "PCL2 #1930"
     link: https://github.com/PCL-Community/PCL2-1930
     details: 常见&难检反馈及问题列表的正文源码
