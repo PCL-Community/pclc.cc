@@ -1,5 +1,12 @@
 /* src/.vitepress/theme/style/index.css */
 
-@import './hidden_line.css';
-@import './blur.css';
-@import './theme.css';
+@import "./hidden_line.css";
+@import "./blur.css";
+@import "./theme.css";
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+div.collapse.collapse-arrow div.collapse-title::after {
+    margin-top: 10px;
+}

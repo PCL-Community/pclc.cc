@@ -2,7 +2,7 @@
 
 ## Community 日常？
 
-[⛏什么？！](https://github.com/PCL-Community/PCL2Hub)
+[⛏ 什么？！](https://github.com/PCL-Community/PCL2Hub)
 
 ## 鸽子项目追踪
 
