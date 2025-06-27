@@ -4,7 +4,7 @@ layout: doc
 
 # 项目一览
 
-## PCL2-CE
+## PCL-CE
 
 Plain Craft Launcher 2 社区版<br />
 由社区强力驱动的抢先预览版
@@ -35,7 +35,7 @@ Plain Craft Launcher 2 多语言版<br />
 作者：Hill23333<br />
 地址：https://github.com/PCL-Community/PCL.Neo
 
-## PCL2 Nova <Badge type="tip" text="开发中" />
+## PCL Nova <Badge type="tip" text="开发中" />
 
 正在开发的跨平台 PCL2 启动器
 

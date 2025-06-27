@@ -53,17 +53,18 @@ export default defineConfig({
             { text: "杂物间", link: "/misc/index.md" },
             { text: "关于", link: "/about.md" },
             { text: "账单", link: "/bill.md" },
+            { text: "隐私协议", link: "/privacy.md" },
         ],
 
-        sidebar: [
-            /* {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      } */
-        ],
+        sidebar: {
+            '/privacy/': [
+                { text: "第三方信息共享清单", link: "/privacy/third-party/" },
+                { text: "个人信息处理规则", link: "/privacy/personal-info/" },
+                { text: "个人信息处理规则摘要", link: "/privacy/personal-info-brief/" },
+                { text: "个人信息对外提供清单", link: "/privacy/provide-list/" },
+                { text: "个人信息收集清单", link: "/privacy/collect-list/" },
+            ]
+        },
 
         socialLinks: [
             { icon: "github", link: "https://github.com/PCL-Community" },
@@ -75,4 +76,23 @@ export default defineConfig({
             copyright: 'Copyright © <a href="https://github.com/PCL-Community" target="_blank">PCL Community</a>',
         },
     },
+    
+    async transformHead({ assets }) {
+        const font = assets.find(file => /PCL-English\.ttf/.test(file));
+        console.log(font);
+        if (font) {
+            return [
+                [
+                    'link',
+                    {
+                        rel: 'preload',
+                        href: font,
+                        as: 'font',
+                        type: 'font/ttf',
+                        crossorigin: ''
+                    }
+                ]
+            ]
+        }
+    }
 });

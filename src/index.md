@@ -3,8 +3,7 @@
 layout: home
 
 hero:
-    name: "Plain Craft Launcher"
-    text: "Community"
+    name: "PCL Community"
     tagline: 非官方的 PCL 社区用户开发者组织
     image:
         src: /img/logo.png
@@ -27,3 +26,11 @@ features:
       link: https://github.com/PCL-Community/PCL-Issue-Helper
       details: 由 @Hill23333 编写的 Issue 快速查重程序
 ---
+
+<style>
+  :root {
+    .VPHero {
+      margin-top: -20px;
+    }
+  }
+</style>

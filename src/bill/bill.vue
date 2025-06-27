@@ -21,7 +21,7 @@
             </p>
         </div>
     </div>
-    <div class="border border-[var(--vp-c-indigo-1)] rounded-[20px] p-2 m-2 flex flex-col gap-2 bg-[var(--vp-c-divider)]">
+    <div class="border border-[var(--vp-c-brand-3)] rounded-[20px] p-2 m-2 flex flex-col gap-2 bg-[var(--vp-c-divider)]">
         <div class="collapse collapse-arrow rounded-[12.5px]" v-for="bill in bills">
             <input type="checkbox" />
             <div class="collapse-title font-semibold flex gap-2 bg-[var(--vp-nav-screen-bg-color)]">
