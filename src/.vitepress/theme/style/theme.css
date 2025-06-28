@@ -10,9 +10,8 @@
     --vp-c-brand-1: #6b9f93;
     --vp-c-brand-2: #43655d;
     --vp-c-brand-3: #5a867c;
-    /* hero 标题渐变 */
-    --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: linear-gradient(180deg, #6b9f93 100%);
+
+    --vp-home-hero-name-color: #6b9f93;
 
     /* index.md logo 渐变 */
     --vp-home-hero-image-background-image: linear-gradient(
