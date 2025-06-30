@@ -15,8 +15,8 @@
 </style>
 
 <template>
-    <div v-for="release in releases" class="main">
-        <h1 v-bind:id="release.name">{{ release.name }}</h1>
+    <div v-for="(release, i) in releases" class="main">
+        <h1 v-bind:id="release.name" v-bind:tabindex="i">{{ release.name }}</h1>
         <div v-html="renderMD(release.body)" class="release"></div>
     </div>
 </template>
