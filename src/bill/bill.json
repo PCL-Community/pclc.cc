@@ -1,5 +1,13 @@
 [
     {
+        "date": "2025-07-01",
+        "exchanged-amount": 216.35,
+        "target": "Mirror 酱",
+        "operator": "Pigeon0v0",
+        "description": "开发者分成提现",
+        "type": "income"
+    },
+    {
         "date": "2025-06-15",
         "original-amount": 17.94,
         "original-unit": "$",
