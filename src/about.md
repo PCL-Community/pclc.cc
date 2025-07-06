@@ -11,6 +11,12 @@ outline: false
 
 [GitHub](https://github.com/PCL-Community) | [B 站](https://space.bilibili.com/3546847192811755) | [加入组织](https://github.com/orgs/PCL-Community/discussions/10)
 
+## PCL-CE 的贡献者们
+
+<a href="https://github.com/PCL-Community/PCL2-CE/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=PCL-Community/PCL2-CE" alt="contrib.rocks image" />
+</a>
+
 ## PCL 的贡献者们
 
 <a href="https://github.com/Hex-Dragon/PCL2/graphs/contributors">
