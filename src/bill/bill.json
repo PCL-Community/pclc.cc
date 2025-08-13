@@ -1,6 +1,14 @@
 [
     {
         "date": "2025-08-03",
+        "exchanged-amount": 181.83,
+        "target": "Mirror 酱",
+        "operator": "Pigeon0v0, EncVar",
+        "description": "开发者分成提现",
+        "type": "income"
+    },
+    {
+        "date": "2025-08-03",
         "exchanged-amount": 100,
         "target": "Pysio",
         "operator": "EncVar",
