@@ -9,7 +9,7 @@
     },
     {
         "date": "2025-08-03",
-        "exchanged-amount": 100,
+        "exchanged-amount": 100.00,
         "target": "Pysio",
         "operator": "EncVar",
         "description": "赞助服务提供商",
