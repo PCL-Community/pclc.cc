@@ -60,8 +60,6 @@
                     <p style="margin: 0px; opacity: 80%">操作员：{{ bill.operator }}</p>
                 </div>
                 <div class="w-fit h-auto text-right right-16 absolute flex">
-                    <h2 v-if="bill.type === 'income'" style="border-top: 0px; margin: 0px; padding-top: 8px">+</h2>
-                    <h2 v-if="bill.type === 'outlay'" style="border-top: 0px; margin: 0px; padding-top: 8px">-</h2>
                     <h3
                         v-if="bill['original-amount'] !== undefined && bill['original-unit'] !== undefined"
                         style="
@@ -76,6 +74,8 @@
                         ">
                         {{ bill["original-unit"] + bill["original-amount"] }}
                     </h3>
+                    <h2 v-if="bill.type === 'income'" style="border-top: 0px; margin: 0px; padding-top: 8px">+</h2>
+                    <h2 v-if="bill.type === 'outlay'" style="border-top: 0px; margin: 0px; padding-top: 8px">-</h2>
                     <h2 style="border-top: 0px; margin: 0px; padding-top: 8px">￥{{ bill["exchanged-amount"] }}</h2>
                 </div>
             </div>
