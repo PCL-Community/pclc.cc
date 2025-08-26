@@ -7,7 +7,7 @@
     <div style="flex-direction: row; display: flex;">
         <div class="available-bill">
             <p style="text-align: center; padding-top: 6px; margin: 0px; width: auto; height: auto">
-                可用：￥{{ Math.round(BillManager.getAvailable() * 100) / 100 }}
+                结余：￥{{ Math.round(BillManager.getAvailable() * 100) / 100 }}
             </p>
         </div>
         <div class="income-bill">
