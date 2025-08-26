@@ -74,9 +74,9 @@
                         ">
                         {{ bill["original-unit"] + bill["original-amount"] }}
                     </h3>
-                    <h2 v-if="bill.type === 'income'" style="border-top: 0px; margin: 0px; padding-top: 8px">+</h2>
-                    <h2 v-if="bill.type === 'outlay'" style="border-top: 0px; margin: 0px; padding-top: 8px">-</h2>
-                    <h2 style="border-top: 0px; margin: 0px; padding-top: 8px">￥{{ bill["exchanged-amount"] }}</h2>
+                    <h2 style="border-top: 0px; margin: 0px; padding-top: 8px">{{
+                        bill["type"] === "income" ? "+" : bill["type"] === "outlay" ? "-"
+                    }}￥{{ bill["exchanged-amount"] }}</h2>
                 </div>
             </div>
             <div class="collapse-content text-sm bg-[var(--vp-nav-screen-bg-color)]">
