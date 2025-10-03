@@ -1,5 +1,13 @@
 [
     {
+        "date": "2025-10-01",
+        "exchanged-amount": 275.94,
+        "target": "Mirror 酱",
+        "operator": "EncVar",
+        "description": "开发者分成提现",
+        "type": "income"
+    },
+    {
         "date": "2025-09-01",
         "exchanged-amount": 464.83,
         "target": "Mirror 酱",
