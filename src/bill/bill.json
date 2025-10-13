@@ -1,5 +1,13 @@
 [
     {
+        "date": "2025-10-06",
+        "exchanged-amount": 89.00,
+        "target": "Ruollin",
+        "operator": "EncVar",
+        "description": "给社区成员赞助一个正版账号~供调试使用~",
+        "type": "outlay"
+    },
+    {
         "date": "2025-10-01",
         "exchanged-amount": 275.94,
         "target": "Mirror 酱",
