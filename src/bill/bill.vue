@@ -88,7 +88,7 @@ import { BillManager } from "./bill.ts";
                             bill["type"] === "income" ? "收入来源" : bill["type"] === "outlay" ? "支出目标" : "交易对象"
                         }}
                     </div>
-                    {{ bill["target"] }}
+                    <div id="bill-target" class="mt-0 mb-0" v-html="mdRenderer.render(bill['target'])"></div>
                 </div>
                 <div class="flex gap-2 items-center mt-1">
                     <div class="badge badge-md badge-inline text-(--vp-nav-screen-bg-color)" style="--badge-color: var(--vp-c-warning-1)">
@@ -126,6 +126,9 @@ import { BillManager } from "./bill.ts";
         color: black;
     }
     #bill-description p {
+        margin: 0px;
+    }
+    #bill-target p {
         margin: 0px;
     }
 </style>

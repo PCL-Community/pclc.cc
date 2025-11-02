@@ -1,6 +1,14 @@
 [
     {
         "date": "2025-11-01",
+        "exchanged-amount": 89.00,
+        "target": "[@旷世淇才](https://space.bilibili.com/1115318121)",
+        "operator": "Pigeon0v0, EncVar",
+        "description": "Bilibili 抽奖",
+        "type": "outlay"
+    },
+    {
+        "date": "2025-11-01",
         "exchanged-amount": 376.42,
         "target": "Mirror 酱",
         "operator": "EncVar",
