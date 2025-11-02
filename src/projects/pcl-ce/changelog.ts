@@ -7,7 +7,6 @@ export interface Release {
 }
 
 export async function getReleases(): Promise<Release[]> {
-    let release: Release[] = [];
     return (await axios.get<Release[]>("https://api.github.com/repos/PCL-Community/PCL2-CE/releases")).data;
 }
 

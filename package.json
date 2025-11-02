@@ -1,14 +1,15 @@
 {
     "devDependencies": {
         "@tailwindcss/vite": "^4.1.10",
+        "@types/markdown-it": "^14.1.2",
         "daisyui": "^5.0.43",
         "tailwindcss": "^4.1.10",
         "vitepress": "^1.6.3"
     },
     "scripts": {
-        "docs:dev": "vitepress dev src",
-        "docs:build": "vitepress build src",
-        "docs:preview": "vitepress preview src"
+        "dev": "vitepress dev src",
+        "build": "vitepress build src",
+        "preview": "vitepress preview src"
     },
     "dependencies": {
         "@nolebase/vitepress-plugin-enhanced-mark": "^2.15.1",

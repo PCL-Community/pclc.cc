@@ -1,6 +1,8 @@
 <script setup lang="ts">
-    import { Bill, BillManager } from "./bill.ts";
+    import MarkdownIt from "markdown-it";
+import { BillManager } from "./bill.ts";
     const bills = BillManager.getBills();
+    const mdRenderer = new MarkdownIt();
 </script>
 
 <template>
@@ -21,10 +23,10 @@
             </p>
         </div>
     </div>
-    <div class="border border-[var(--vp-c-brand-3)] rounded-[20px] p-2 m-2 flex flex-col gap-2 bg-[var(--vp-c-divider)]">
+    <div class="border border-(--vp-c-brand-3) rounded-[20px] p-2 m-2 flex flex-col gap-2 bg-(--vp-c-divider)">
         <div class="collapse collapse-arrow rounded-[12.5px]" v-for="bill in bills">
             <input type="checkbox" />
-            <div class="collapse-title font-semibold flex gap-2 bg-[var(--vp-nav-screen-bg-color)]">
+            <div class="collapse-title font-semibold flex gap-2 bg-(--vp-nav-screen-bg-color)">
                 <svg
                     v-if="bill.type === 'outlay'"
                     width="28"
@@ -66,22 +68,22 @@
                             opacity: 75%;
                             border-top: 0px;
                             margin: 0px;
-                            margin-top: 8px;
+                            margin-top: 10px;
                             border-right: 1px solid var(--vp-c-divider);
-                            margin-right: 4px;
+                            margin-right: 8px;
                             padding-right: 8px;
                             padding-top: 2px;
                         ">
-                        {{ bill["original-unit"] + bill["original-amount"] }}
+                        {{ bill["original-unit"] + bill["original-amount"].toFixed(2) }}
                     </h3>
-                    <h2 style="border-top: 0px; margin: 0px; padding-top: 8px">{{
-                        bill["type"] === "income" ? "+" : bill["type"] === "outlay" ? "-" : ""
-                    }}￥{{ bill["exchanged-amount"] }}</h2>
+                    <h2 style="border-top: 0px; margin: 0px; padding-top: 8px">
+                        {{ bill["type"] === "income" ? "+" : bill["type"] === "outlay" ? "-" : "" }}￥{{ bill["exchanged-amount"].toFixed(2) }} 
+                    </h2>
                 </div>
             </div>
-            <div class="collapse-content text-sm bg-[var(--vp-nav-screen-bg-color)]">
+            <div class="collapse-content text-sm bg-(--vp-nav-screen-bg-color)">
                 <div class="flex gap-2 items-center">
-                    <div class="badge badge-md badge-inline text-[var(--vp-nav-screen-bg-color)]" style="--badge-color: var(--vp-c-brand-3)">
+                    <div class="badge badge-md badge-inline text-(--vp-nav-screen-bg-color)" style="--badge-color: var(--vp-c-brand-3)">
                         {{
                             bill["type"] === "income" ? "收入来源" : bill["type"] === "outlay" ? "支出目标" : "交易对象"
                         }}
@@ -89,10 +91,10 @@
                     {{ bill["target"] }}
                 </div>
                 <div class="flex gap-2 items-center mt-1">
-                    <div class="badge badge-md badge-inline text-[var(--vp-nav-screen-bg-color)]" style="--badge-color: var(--vp-c-warning-1)">
+                    <div class="badge badge-md badge-inline text-(--vp-nav-screen-bg-color)" style="--badge-color: var(--vp-c-warning-1)">
                         交易内容
                     </div>
-                    {{ bill["description"] }}
+                    <div id="bill-description" class="mt-0 mb-0" v-html="mdRenderer.render(bill['description'])"></div>
                 </div>
             </div>
         </div>
@@ -122,5 +124,8 @@
         border-radius: 10px;
         margin-left: 7.5px;
         color: black;
+    }
+    #bill-description p {
+        margin: 0px;
     }
 </style>

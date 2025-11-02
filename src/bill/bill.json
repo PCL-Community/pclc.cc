@@ -1,10 +1,18 @@
 [
     {
+        "date": "2025-11-01",
+        "exchanged-amount": 376.42,
+        "target": "Mirror 酱",
+        "operator": "EncVar",
+        "description": "开发者分成提现",
+        "type": "income"
+    },
+    {
         "date": "2025-10-06",
         "exchanged-amount": 89.00,
         "target": "Ruollin",
         "operator": "EncVar",
-        "description": "给社区成员赞助一个正版账号~供调试使用~",
+        "description": "给社区成员赞助一个正版账号（~~供调试使用~~）",
         "type": "outlay"
     },
     {
