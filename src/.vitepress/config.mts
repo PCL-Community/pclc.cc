@@ -6,13 +6,41 @@ import tailwindcss4 from "@tailwindcss/vite";
 export default defineConfig({
     title: "PCL Community",
     description: "PCL 非官方社区",
-    head: [["link", { rel: "icon", href: "/img/logo.png" }]],
+
     lang: "zh-CN",
+    head: [
+        /* Basic Metadata */
+        ["meta", { name: "viewport", content: "width=device-width, initial-scale=1.0" }],
+        ["meta", { name: "description", content: "PCL 非官方社区" }],
+        ["meta", { name: "keywords", content: "PCL, PCL-CE, PCL 非官方社区" }],
+        ["meta", { name: "author", content: "PCL-Community" }],
+        /* SEO & Robots Control */
+        ["meta", { name: "robots", content: "index, follow" }],
+        ["meta", { name: "googlebot", content: "index, follow" }],
+        ["meta", { name: "theme-color", content: "#6b9f93" }],
+        /* Progressive Web & Mobile Support */
+        ["meta", { name: "mobile-web-app-capable", content: "yes" }],
+        ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+        ["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black-translucent" }],
+        ["meta", { name: "apple-mobile-web-app-title", content: "PCL Community" }],
+        ["link", { rel: "apple-touch-icon", href: "/img/logo.png" }],
+        /* Open Graph */
+        ["meta", { property: "og:type", content: "website" }],
+        ["meta", { property: "og:title", content: "PCL Community" }],
+        ["meta", { property: "og:description", content: "PCL 非官方社区" }],
+        ["meta", { property: "og:image", content: "/img/ogimage.png" }],
+        ["meta", { property: "og:url", content: "https://pclc.cc/" }],
+        ["meta", { property: "og:site_name", content: "PCL Community" }],
+        /* Performance / UX Extras */
+        ["meta", { "http-equiv": "X-UA-Compatible", content: "IE=edge" }],
+    ],
+
     markdown: {
         config: (md) => {
             md.use(timeline);
         },
     },
+    
     vite: {
         plugins: [tailwindcss4()],
         optimizeDeps: {
@@ -57,13 +85,13 @@ export default defineConfig({
         ],
 
         sidebar: {
-            '/privacy/': [
+            "/privacy/": [
                 { text: "第三方信息共享清单", link: "/privacy/third-party/" },
                 { text: "个人信息处理规则", link: "/privacy/personal-info/" },
                 { text: "个人信息处理规则摘要", link: "/privacy/personal-info-brief/" },
                 { text: "个人信息对外提供清单", link: "/privacy/provide-list/" },
                 { text: "个人信息收集清单", link: "/privacy/collect-list/" },
-            ]
+            ],
         },
 
         socialLinks: [
@@ -76,23 +104,23 @@ export default defineConfig({
             copyright: 'Copyright © <a href="https://github.com/PCL-Community" target="_blank">PCL Community</a>',
         },
     },
-    
+
     async transformHead({ assets }) {
-        const font = assets.find(file => /PCL-English\.ttf/.test(file));
+        const font = assets.find((file) => /PCL-English\.ttf/.test(file));
         console.log(font);
         if (font) {
             return [
                 [
-                    'link',
+                    "link",
                     {
-                        rel: 'preload',
+                        rel: "preload",
                         href: font,
-                        as: 'font',
-                        type: 'font/ttf',
-                        crossorigin: ''
-                    }
-                ]
-            ]
+                        as: "font",
+                        type: "font/ttf",
+                        crossorigin: "",
+                    },
+                ],
+            ];
         }
-    }
+    },
 });

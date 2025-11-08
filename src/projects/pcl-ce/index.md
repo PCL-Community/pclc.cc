@@ -49,12 +49,12 @@ layout: doc
 
 下列表格中的信息可能不会及时更新，请以 [GitHub README](https://github.com/PCL-Community/PCL2-CE/blob/dev/README.md) 中的信息为准。
 
-| 操作系统 | 支持的启动器版本 | 环境要求 | 社区技术支持 |
-|---|---|---|---|
-| Windows 10 1809 (17763) 或更高 | [最新版](https://github.com/PCL-Community/PCL2-CE/releases/latest) | [.NET 8 Desktop Runtime](http://get.dot.net/8) | ✅ 完整支持 |
-| Windows 8 - Windows 10 1809- (17763-) | [最新版](https://github.com/PCL-Community/PCL2-CE/releases/latest) | [.NET 8 Desktop Runtime](http://get.dot.net/8) | ⚠️ 理论能跑，但不提供社区支持 |
-| Windows 7 或更低版本 | [2.9.5](https://github.com/PCL-Community/PCL2-CE/releases/tag/2.9.5) | [.NET Framework 4.8](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/thank-you/net48-offline-installer) | ❌ 不提供社区支持 |
-| macOS / Linux / 其他操作系统 | 暂不支持 | [.NET 9 SDK](http://get.dot.net/9) | ⚠️ 仅跨平台开发支持（交叉编译） |
+| 操作系统                              | 支持的启动器版本                                                     | 环境要求                                                                                                             | 社区技术支持                    |
+| ------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| Windows 10 1809 (17763) 或更高        | [最新版](https://github.com/PCL-Community/PCL2-CE/releases/latest)   | [.NET 8 Desktop Runtime](http://get.dot.net/8)                                                                       | ✅ 完整支持                     |
+| Windows 8 - Windows 10 1809- (17763-) | [最新版](https://github.com/PCL-Community/PCL2-CE/releases/latest)   | [.NET 8 Desktop Runtime](http://get.dot.net/8)                                                                       | ⚠️ 理论能跑，但不提供社区支持   |
+| Windows 7 或更低版本                  | [2.9.5](https://github.com/PCL-Community/PCL2-CE/releases/tag/2.9.5) | [.NET Framework 4.8](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/thank-you/net48-offline-installer) | ❌ 不提供社区支持               |
+| macOS / Linux / 其他操作系统          | 暂不支持                                                             | [.NET 9 SDK](http://get.dot.net/9)                                                                                   | ⚠️ 仅跨平台开发支持（交叉编译） |
 
 **✅ 完整支持**：尽可能提供一切相关支持，但必须确保启动器为最新版本。
 
@@ -64,9 +64,9 @@ layout: doc
 
 **⚠️ 仅跨平台开发支持（交叉编译）**：PCL CE 的源代码可以在 macOS 与 Linux 平台编译，但无法直接运行。作为开发者，你可以在这些平台上进行开发，然后将编译产物转移到 Windows 系统测试。
 
-**注**：    
-社区仅对最新版本的启动器提供支持。    
-取决于部分问题的特殊性（如系统不完整），有时你仍然必须升级操作系统以继续获得支持。    
+**注**：  
+社区仅对最新版本的启动器提供支持。  
+取决于部分问题的特殊性（如系统不完整），有时你仍然必须升级操作系统以继续获得支持。  
 PCL CE 始终建议使用最新版本的操作系统以获得最佳体验。
 Windows 7 仍然可以尝试使用最新版本的启动器，但可能会遇到很多额外问题。
 
@@ -88,12 +88,12 @@ git clone git@github.com:<你的 GitHub ID>/PCL2-CE.git
 
 你可以在[此处下载 Visual Studio](https://visualstudio.microsoft.com/)。
 
-使用 Visual Studio 打开克隆下来的仓库中的 `Plain Craft Launcher 2.sln` 文件。
+使用 Visual Studio 打开克隆下来的仓库中的 `Plain Craft Launcher 2.slnx` 文件。
 
 ## 社区版的贡献者们
 
 <a href="https://github.com/PCL-Community/PCL2-CE/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=PCL-Community/PCL2-CE" alt="contrib.rocks image" />
+    <img src="https://contrib.rocks/image?repo=PCL-Community/PCL2-CE" alt="contrib.rocks image" />
 </a>
 
 ## 协议相关

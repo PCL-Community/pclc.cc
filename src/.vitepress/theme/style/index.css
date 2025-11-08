@@ -5,7 +5,13 @@
 @import "./theme.css";
 
 @import "tailwindcss";
-@plugin "daisyui";
+@plugin "daisyui" {
+    exclude: scrollbar, rootscrollgutter;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
 
 div.collapse.collapse-arrow div.collapse-title::after {
     margin-top: 10px;

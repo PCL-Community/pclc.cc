@@ -1,7 +1,7 @@
 // .vitepress/theme/index.ts or .vitepress/theme/index.js
 import { h } from "vue";
 import DefaultTheme from "vitepress/theme";
-import type { Theme as ThemeConfig } from "vitepress";
+import { EnhanceAppContext } from "vitepress";
 
 // 主 CSS 文件
 import "./style/index.css";
@@ -34,7 +34,7 @@ export default {
             "layout-top": () => [h(NolebaseHighlightTargetedHeading)],
         });
     },
-    enhanceApp(ctx) {
+    enhanceApp(ctx: EnhanceAppContext) {
         DefaultTheme.enhanceApp(ctx);
     },
 };

@@ -14,11 +14,11 @@ outline: false
 ## PCL-CE 的贡献者们
 
 <a href="https://github.com/PCL-Community/PCL2-CE/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=PCL-Community/PCL2-CE" alt="contrib.rocks image" />
+    <img src="https://contrib.rocks/image?repo=PCL-Community/PCL2-CE" alt="contrib.rocks image" />
 </a>
 
 ## PCL 的贡献者们
 
 <a href="https://github.com/Hex-Dragon/PCL2/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Hex-Dragon/PCL2" alt="contrib.rocks image" />
+    <img src="https://contrib.rocks/image?repo=Hex-Dragon/PCL2" alt="contrib.rocks image" />
 </a>

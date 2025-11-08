@@ -5,18 +5,8 @@
     const releases: Release[] = await getReleases();
 </script>
 
-<style lang="css">
-    div.main {
-        margin-top: 50px;
-    }
-    div.release {
-        margin-left: 30px;
-    }
-</style>
-
 <template>
-    <div v-for="(release, i) in releases" class="main">
-        <h1 v-bind:id="release.name" v-bind:tabindex="i">{{ release.name }}</h1>
-        <div v-html="renderMD(release.body)" class="release"></div>
+    <div v-for="(release, i) in releases" class="mt-10">
+        <div v-html="renderMD(release.body)"></div>
     </div>
 </template>
