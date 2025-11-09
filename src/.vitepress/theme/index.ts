@@ -1,5 +1,5 @@
 // .vitepress/theme/index.ts or .vitepress/theme/index.js
-import { h } from "vue";
+import { h, onMounted } from "vue";
 import DefaultTheme from "vitepress/theme";
 import { EnhanceAppContext } from "vitepress";
 
@@ -23,6 +23,9 @@ import "@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css";
 // 文本高亮
 import "@nolebase/vitepress-plugin-enhanced-mark/client/style.css";
 
+// 主题同步
+import { useDaisyUISync } from "./plugins/daisyui-sync";
+
 export default {
     extends: DefaultTheme,
     Layout: () => {
@@ -36,5 +39,8 @@ export default {
     },
     enhanceApp(ctx: EnhanceAppContext) {
         DefaultTheme.enhanceApp(ctx);
+    },
+    setup() {
+        useDaisyUISync();
     },
 };
