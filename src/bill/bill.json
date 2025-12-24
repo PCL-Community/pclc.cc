@@ -1,5 +1,21 @@
 [
     {
+        "date": "2025-12-01",
+        "exchanged-amount": 283.54,
+        "target": "Mirror 酱",
+        "operator": "EncVar",
+        "description": "开发者分成提现",
+        "type": "income"
+    },
+    {
+        "date": "2025-11-10",
+        "exchanged-amount": 100.00,
+        "target": "Pysio",
+        "operator": "EncVar",
+        "description": "赞助服务提供商",
+        "type": "outlay"
+    },
+    {
         "date": "2025-11-01",
         "exchanged-amount": 89.00,
         "target": "[@旷世淇才](https://space.bilibili.com/1115318121)",
