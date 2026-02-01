@@ -1,6 +1,14 @@
 [
     {
         "date": "2026-02-01",
+        "exchanged-amount": 410.00,
+        "target": "PCL CE 开发者",
+        "operator": "EncVar",
+        "description": "2025 年贡献者奖金\n[x]Pigeon0v0 [x]tangge233 []ruattd\n[x]pynickle [x]Hill233\n[] OpenKFC []caomei269 [x]EncVar [x]MoYuan-CN [x]youzi-3222\n[]whitecat346 []copytiao [x]xrlzu []wtommy932 []wuliaodexiaoluo\n[]Silverteal []allMagicNB []CiiLu(*2) []wyc-26",
+        "type": "outlay"
+    },
+    {
+        "date": "2026-02-01",
         "exchanged-amount": 795.33,
         "target": "Mirror 酱",
         "operator": "EncVar",
