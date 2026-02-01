@@ -1,5 +1,6 @@
 <script setup lang="ts">
     import MarkdownIt from "markdown-it";
+    import { tasklist } from "@mdit/plugin-tasklist";
 
     import { ref } from "vue";
     import { BillManager } from "./bill.ts";
@@ -12,7 +13,7 @@
     const modal = ref<HTMLDialogElement>();
     const currentBill = ref<IBill>();
     const bills = BillManager.getBills();
-    const mdRenderer = new MarkdownIt();
+    const mdRenderer = new MarkdownIt().use(tasklist, { label: true });
 
     const symbolMap = {
         income: "+",
@@ -55,7 +56,7 @@
                 <div class="flex items-center gap-2">
                     <div
                         v-if="bill['original-amount'] !== undefined && bill['original-unit'] !== undefined"
-                        class="pr-2 border-r-2 border-r-[var(--vp-c-divider)]">
+                        class="pr-2 border-r-2 border-r-(--vp-c-divider)">
                         <span class="text-lg opacity-50">
                             {{ symbolMap[bill.type] }}{{ bill["original-unit"] + bill["original-amount"].toFixed(2) }}
                         </span>

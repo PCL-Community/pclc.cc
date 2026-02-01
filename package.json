@@ -12,6 +12,7 @@
         "preview": "vitepress preview src"
     },
     "dependencies": {
+        "@mdit/plugin-tasklist": "^0.22.3",
         "@nolebase/vitepress-plugin-enhanced-mark": "^2.15.1",
         "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.15.1",
         "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.15.1",

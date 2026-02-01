@@ -7,7 +7,7 @@
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
         <path
-            fill="green"
+            fill="#DBBE3E"
             d="M13.9531 25.9062C20.4922 25.9062 25.9062 20.4805 25.9062 13.9531C25.9062 7.41406 20.4805 2 13.9414 2C7.41406 2 2 7.41406 2 13.9531C2 20.4805 7.42578 25.9062 13.9531 25.9062Z" />
         <path
             style="fill: var(--vp-nav-screen-bg-color)"
