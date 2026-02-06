@@ -3,7 +3,7 @@
     import ProfileCard from "../component/ProfileCard/ProfileCard.vue";
 
     function Pigeon0v0() {
-        window.location.replace('https://www.itspigeon.xin/');
+        window.location.href = 'https://www.itspigeon.xin/';
     }
 </script>
  
