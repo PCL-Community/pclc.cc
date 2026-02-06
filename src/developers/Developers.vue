@@ -10,7 +10,7 @@
 <template>
     <div class="grid grid-cols-2 gap-x-30 gap-y-5">
         <ProfileCardLight
-            name="Pigeon0v0 A. L." 
+            name="Pigeon Ling" 
             handle="Pigeon0v0"
             status=""
             innerGradient="linear-gradient(rgb(227, 244, 255), rgb(255, 225, 225))"
