@@ -82,6 +82,7 @@ export default defineConfig({
             { text: "关于", link: "/about.md" },
             { text: "账单", link: "/bill.md" },
             { text: "隐私协议", link: "/privacy.md" },
+            { text: "开发成员", link: "/developers.md" }
         ],
 
         sidebar: {
