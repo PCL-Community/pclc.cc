@@ -6,7 +6,7 @@
 
         <div class="pc-glare" />
 
-        <div class="pc-content pc-avatar-content">
+        <div class="pc-content">
           <img
             class="avatar"
             :src="avatarUrl"
@@ -562,20 +562,13 @@ onUnmounted(() => {
   z-index: 4;
 }
 
-.pc-avatar-content {
-  overflow: hidden;
-}
-
-.pc-avatar-content .avatar {
+.avatar {
   width: 100%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%) scale(1);
   bottom: 2px;
   opacity: calc(1.75 - var(--pointer-from-center));
-}
-
-.avatar {
   z-index: 2;
 }
 
