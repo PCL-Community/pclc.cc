@@ -1,5 +1,21 @@
 [
     {
+        "date": "2026-02-07",
+        "exchanged-amount": 99.00,
+        "target": "Pysio",
+        "operator": "EncVar",
+        "description": "赞助服务提供商（有￥1被支付宝优惠掉了）",
+        "type": "outlay"
+    },
+    {
+        "date": "2026-02-07",
+        "exchanged-amount": 100.00,
+        "target": "EasyTier",
+        "operator": "EncVar",
+        "description": "赞助服务提供商",
+        "type": "outlay"
+    },
+    {
         "date": "2026-02-01",
         "exchanged-amount": 410.00,
         "target": "PCL CE 开发者",
