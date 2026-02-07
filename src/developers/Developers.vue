@@ -2,8 +2,8 @@
     import ProfileCardLight from "../component/ProfileCard/ProfileCardLight.vue";
     import ProfileCard from "../component/ProfileCard/ProfileCard.vue";
 
-    function Pigeon0v0() {
-        window.location.href = 'https://www.itspigeon.xin/';
+    function redirect(url: string) {
+        window.location.href = url;
     }
 </script>
  
@@ -21,6 +21,19 @@
             :enable-tilt="true"
             :show-behind-gradient="false"
             class="select-none"
-            :onContactClick="Pigeon0v0"/>
+            :onContactClick="() => redirect('https://www.itspigeon.xin/')"/>
+
+        <ProfileCard
+            name="tangge233" 
+            handle="tangge233"
+            status=""
+            avatarUrl="/tangge233/tangge233-transparent.png"
+            iconUrl="/iconpattern.png"
+            miniAvatarUrl="/tangge233/tangge233.jpg"
+            grainUrl="/grain.webp"
+            :enable-tilt="true"
+            :show-behind-gradient="false"
+            class="select-none"
+            :onContactClick="() => redirect('https://blog.tangge233.top/')"/>
     </div>
 </template>
