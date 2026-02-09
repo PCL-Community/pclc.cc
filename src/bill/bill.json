@@ -1,5 +1,13 @@
 [
     {
+        "date": "2026-02-08",
+        "exchanged-amount": 693.23,
+        "target": "Pysio",
+        "operator": "EncVar",
+        "description": "赞助服务提供商（有￥7被支付宝优惠掉了）",
+        "type": "outlay"
+    },
+    {
         "date": "2026-02-07",
         "exchanged-amount": 99.00,
         "target": "Pysio",
