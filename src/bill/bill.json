@@ -1,5 +1,13 @@
 [
     {
+        "date": "2026-02-07",
+        "exchanged-amount": 100.00,
+        "target": "OpenFRP",
+        "operator": "EncVar",
+        "description": "赞助服务提供商",
+        "type": "outlay"
+    },
+    {
         "date": "2026-02-08",
         "exchanged-amount": 693.23,
         "target": "Pysio",
