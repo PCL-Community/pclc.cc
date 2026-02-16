@@ -1,5 +1,21 @@
 [
     {
+        "date": "2026-02-16",
+        "exchanged-amount": 100.00,
+        "target": "PCL Community",
+        "operator": "EncVar",
+        "description": "PCL C. 新年红包",
+        "type": "outlay"
+    },
+    {
+        "date": "2026-02-16",
+        "exchanged-amount": 317.00,
+        "target": "（先插个空）",
+        "operator": "Pigeon0v0, EncVar",
+        "description": "Bilibili 抽奖",
+        "type": "outlay"
+    },
+    {
         "date": "2026-02-07",
         "exchanged-amount": 100.00,
         "target": "OpenFRP",
