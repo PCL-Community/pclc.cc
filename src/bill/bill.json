@@ -16,7 +16,7 @@
         "type": "outlay"
     },
     {
-        "date": "2026-02-07",
+        "date": "2026-02-08",
         "exchanged-amount": 100.00,
         "target": "OpenFRP",
         "operator": "EncVar",
@@ -52,7 +52,7 @@
         "exchanged-amount": 410.00,
         "target": "PCL CE 开发者",
         "operator": "EncVar",
-        "description": "### 2025 年贡献者奖金 \n- [x] Pigeon0v0\n- [x] tangge233\n- [ ] ruattd\n- [x] pynickle\n- [x] Hill233\n- [ ] OpenKFC\n- [ ] caomei269\n- [x] EncVar\n- [x] MoYuan-CN\n- [x] youzi-3222\n- [ ] whitecat346\n- [ ] copytiao\n- [x] xrlzu\n- [ ] wtommy932\n- [ ] wuliaodexiaoluo\n- [ ] Silverteal\n- [ ] allMagicNB\n- [ ] CiiLu(*2)\n- [ ] wyc-26",
+        "description": "### 2025 年贡献者奖金 \n- [x] Pigeon0v0\n- [x] tangge233\n- [x] ruattd\n- [x] pynickle\n- [x] Hill233\n- [ ] OpenKFC\n- [ ] caomei269\n- [x] EncVar\n- [x] MoYuan-CN\n- [x] youzi-3222\n- [ ] whitecat346\n- [x] copytiao\n- [x] xrlzu\n- [ ] wtommy932\n- [ ] wuliaodexiaoluo\n- [ ] Silverteal\n- [ ] allMagicNB\n- [ ] CiiLu(*2)\n- [ ] wyc-26",
         "type": "outlay"
     },
     {
