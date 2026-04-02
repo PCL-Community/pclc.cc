@@ -1,5 +1,21 @@
 [
     {
+        "date": "2026-04-01",
+        "exchanged-amount": 478.40,
+        "target": "Mirror 酱",
+        "operator": "Pysio",
+        "description": "开发者分成提现",
+        "type": "income"
+    },
+    {
+        "date": "2026-03-01",
+        "exchanged-amount": 570.82,
+        "target": "Mirror 酱",
+        "operator": "Pysio",
+        "description": "开发者分成提现",
+        "type": "income"
+    },
+    {
         "date": "2026-02-16",
         "exchanged-amount": 100.00,
         "target": "PCL Community",
