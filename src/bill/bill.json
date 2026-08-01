@@ -1,5 +1,37 @@
 [
     {
+        "date": "2026-08-01",
+        "exchanged-amount": 698.16,
+        "target": "Mirror 酱",
+        "operator": "Pysio",
+        "description": "开发者分成提现",
+        "type": "income"
+    },
+    {
+        "date": "2026-07-01",
+        "exchanged-amount": 245.53,
+        "target": "Mirror 酱",
+        "operator": "Pysio",
+        "description": "开发者分成提现",
+        "type": "income"
+    },
+    {
+        "date": "2026-06-01",
+        "exchanged-amount": 428.97,
+        "target": "Mirror 酱",
+        "operator": "Pysio",
+        "description": "开发者分成提现",
+        "type": "income"
+    },
+    {
+        "date": "2026-05-01",
+        "exchanged-amount": 403.86,
+        "target": "Mirror 酱",
+        "operator": "Pysio",
+        "description": "开发者分成提现",
+        "type": "income"
+    },
+    {
         "date": "2026-04-01",
         "exchanged-amount": 478.40,
         "target": "Mirror 酱",
