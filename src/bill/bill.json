@@ -1,5 +1,13 @@
 [
     {
+        "date": "2026-08-03",
+        "exchanged-amount": 33.94,
+        "target": "PCL Community",
+        "operator": "Pysio",
+        "description": "OpenCode GO",
+        "type": "outlay"
+    },
+    {
         "date": "2026-08-01",
         "exchanged-amount": 698.16,
         "target": "Mirror 酱",
