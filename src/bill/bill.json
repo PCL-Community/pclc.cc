@@ -1,5 +1,13 @@
 [
     {
+        "date": "2026-08-13",
+        "exchanged-amount": 100.00,
+        "target": "随机两位 PCL CE 开发者",
+        "operator": "Pigeon0v0",
+        "description": "疯狂星期四 V 50",
+        "type": "outlay"
+    },
+    {
         "date": "2026-08-03",
         "exchanged-amount": 33.94,
         "target": "PCL Community",
