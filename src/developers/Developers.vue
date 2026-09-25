@@ -6,11 +6,11 @@
         window.location.href = url;
     }
 </script>
- 
+
 <template>
     <div class="grid grid-cols-2 gap-x-30 gap-y-5">
         <ProfileCardLight
-            name="Pigeon Ling" 
+            name="Pigeon Ling"
             handle="Pigeon0v0"
             status=""
             innerGradient="linear-gradient(rgb(227, 244, 255), rgb(255, 225, 225))"
@@ -24,12 +24,12 @@
             :onContactClick="() => redirect('https://www.itspigeon.xin/')"/>
 
         <ProfileCard
-            name="tangge233" 
+            name="tangge233"
             handle="tangge233"
             status=""
-            avatarUrl="/tangge233/tangge233-transparent.png"
+            avatarUrl="/tangge233/tangge233-transparent.webp"
             iconUrl="/iconpattern.png"
-            miniAvatarUrl="/tangge233/tangge233.jpg"
+            miniAvatarUrl="/tangge233/tangge233.webp"
             grainUrl="/grain.webp"
             :enable-tilt="true"
             :show-behind-gradient="false"
